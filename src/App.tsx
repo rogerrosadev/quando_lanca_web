@@ -4,7 +4,6 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 // páginas
 import { Home } from "./routes/Home";
 import { Details } from "./routes/Details";
-import { FloatingButton } from "./components/FloatingButton";
 
 // router
 const router = createBrowserRouter([
@@ -23,7 +22,6 @@ export function App(){
         <>
         <GlobalStyles />
         <RouterProvider router={router}/>
-        <FloatingButton />
         </>
     )
 }
