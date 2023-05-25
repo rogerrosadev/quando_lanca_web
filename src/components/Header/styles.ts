@@ -3,15 +3,16 @@ import styled from "styled-components";
 import { HeaderProps } from "./interface";
 
 export const StyledHeader = styled.header<HeaderProps>`
-    min-height: 88px;
+    min-height: 68px;
     width: 100%;
     background-color: var(--black2);
     border-bottom: 2px solid var(--black3);
     position: fixed;
     top: 0;
+    z-index: 3;
 
     section {
-        min-height: 88px;
+        min-height: 78px;
         display: flex;
         flex-direction: row;
         padding: 0 80px;

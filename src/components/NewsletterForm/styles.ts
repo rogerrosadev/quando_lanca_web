@@ -1,0 +1,54 @@
+import styled from "styled-components";
+
+export const StyledForm = styled.form`
+    width: 100%;
+    background-color: var(--black2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 120px 20px;
+    margin: 50px 0;
+
+    h1 {
+        font-size: var(--highlight);
+        max-width: calc(var(--highlight) * 18.5294);
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .input_box {
+        height: 60px;
+        max-width: 530px;
+        width: 100%;
+        background-color: var(--black3);
+        position: relative;
+        border-radius: 12px;
+
+        button, input[type=text] {
+            height: 100%;
+            background-color: transparent;
+        }
+
+        input[type=text]{
+            padding-left: 16px;
+            width: 100%;
+            font-size: 14px;
+
+            &::placeholder {
+                color: var(--gray1);
+            }
+            color: var(--main);
+        }
+
+        button {
+            position: absolute;
+            right: 16px;
+            padding-top: 6px;
+
+            img {
+                height: 24px;
+            }
+        }
+    }
+`;
