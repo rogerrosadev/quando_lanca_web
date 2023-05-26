@@ -55,4 +55,32 @@ export const StyledArticle = styled.article`
             }
         }
     }
+
+    @media (max-width: 650px){
+        max-width: 29vw;
+
+        .body {
+            p {
+                font-size: calc(var(--subtitle) * 2.1);
+            }
+
+            h3 {
+                font-size: calc(var(--title) * 2.1);
+            }
+        }
+    }
+
+    @media(max-width: 425px){
+        max-width: 44vw;
+
+        .body {
+            p {
+                font-size: calc(var(--subtitle) * 3);
+            }
+
+            h3 {
+                font-size: calc(var(--title) * 3);
+            }
+        }
+    }
 `;

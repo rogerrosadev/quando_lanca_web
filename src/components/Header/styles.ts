@@ -128,10 +128,22 @@ export const StyledHeader = styled.header<HeaderProps>`
     @media(max-width: 425px){
         border: none;
         background-color: var(--black1);
+        position: relative;
+        margin-top: -220px;
 
         section {
 
+            .top {
+                position: fixed;
+                z-index: 3;
+                top: 0;
+                padding: 24px;
+                background-color: var(--black1);
+                border-bottom: 2px solid var(--black3);
+            }
+
             label {
+                margin-top: 60px;
                 display: block;
             }
         }

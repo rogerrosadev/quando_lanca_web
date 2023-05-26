@@ -38,4 +38,8 @@ export const StyledButton = styled.button`
             font-size: 12px;
         }
     }
+
+    @media (max-width: 425px){
+        display: none;
+    }
 `;

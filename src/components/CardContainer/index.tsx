@@ -1,5 +1,6 @@
 import { StyledSection } from "./styles";
 import filter_icon from "../../assets/icons/filter_icon.svg";
+import mobile_filter from "../../assets/icons/mobile_filter.svg";
 import arrow_down from "../../assets/icons/arrow-down.svg";
 
 interface CardContainerProps {
@@ -27,6 +28,9 @@ export function CardContainer({ children, title, label }: CardContainerProps){
                     <button className="filter">
                         <img src={filter_icon} alt="ícone de filtro" />
                         Filtrar
+                    </button>
+                    <button className="mobile_filter_buttton">
+                        <img src={mobile_filter} alt="" />
                     </button>
                 </div>
             </div>

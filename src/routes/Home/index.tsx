@@ -36,7 +36,7 @@ export function Home(){
                     <Card />
                 </CardSlider>
             </Container>
-            <CardContainer label="" title="Chegam Em Breve">
+            <CardContainer label="151,146 jogos encontrados" title="Chegam Em Breve">
                 <Card />
                 <Card />
                 <Card />
