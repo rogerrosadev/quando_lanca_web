@@ -214,7 +214,7 @@ export const StyledSection = styled.section`
 
                 img {
                     height: 14px;
-                }
+                  }
             }
         }
     }
