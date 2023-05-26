@@ -70,7 +70,10 @@ export const StyledDiv = styled.div`
     }
 
     @media(max-width: 768px){
+
         .slider_header {
+            margin-bottom: 20px;
+
             h1 {
                 font-size: 28px;
                 line-height: 28px;
@@ -96,6 +99,8 @@ export const StyledDiv = styled.div`
     }
 
     @media(max-width: 650px){
+        margin-top: 80px;
+
         .slider_header {
             h1 {
                 font-size: 24px;
@@ -121,6 +126,8 @@ export const StyledDiv = styled.div`
     }
 
     @media(max-width: 425px){
+        margin-top: 60px;
+
         .viewport {
             .rail {
                 gap: 2.9vw;
@@ -129,6 +136,8 @@ export const StyledDiv = styled.div`
     }
 
     @media(max-width: 375px){
+        margin-top: 40px;
+
         .slider_header {
             h1 {
                 font-size: 16px;
