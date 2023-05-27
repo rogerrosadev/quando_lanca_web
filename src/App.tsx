@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Home } from "./routes/Home";
 import { Details } from "./routes/Details";
 import { FloatingButton } from "./components/FloatingButton";
+import { TabBar } from "./components/TabBar";
 
 // router
 const router = createBrowserRouter([
@@ -23,6 +24,7 @@ export function App(){
         <>
         <GlobalStyles />
         <FloatingButton />
+        <TabBar />
         <RouterProvider router={router}/>
         </>
     )

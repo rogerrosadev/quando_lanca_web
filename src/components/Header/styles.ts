@@ -149,4 +149,22 @@ export const StyledHeader = styled.header<HeaderProps>`
         }
     }
 
+    @media(max-width: 425px){
+        section {
+            .search_form {
+                input[type=text]{
+                    padding: 0 12px;
+                    border-radius: 10px;
+                }
+
+                button {
+                    right: 12px;
+
+                    img {
+                        height: 14px;
+                    }
+                }
+            }
+        }
+    }
 `;
