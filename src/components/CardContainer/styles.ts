@@ -168,6 +168,8 @@ export const StyledSection = styled.section`
     }
 
     @media (max-width: 650px){
+        margin-top: 60px;
+
         .container_body {
             grid-template-columns: repeat(3, 1fr);
             column-gap: 3vw;
@@ -220,6 +222,7 @@ export const StyledSection = styled.section`
     }
 
     @media(max-width: 375px){
+
         .container_header{
             .texts {
                 h1 {

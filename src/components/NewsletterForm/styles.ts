@@ -51,4 +51,55 @@ export const StyledForm = styled.form`
             }
         }
     }
+
+    @media (max-width: 768px){
+        h1 {
+            font-size: calc(var(--highlight) *1.6);
+            max-width: calc(var(--highlight) * 30);
+        }
+    }
+
+    @media (max-width: 650px){
+        padding: 100px 20px;
+    }
+
+    @media (max-width: 425px){
+        padding: 60px 20px;
+
+        h1 {
+            font-size: calc(var(--highlight) *2);
+            max-width: 500px;
+        }
+
+        .input_box {
+            height: 48px;
+            border-radius: 10px;
+
+            input[type=text]{
+                padding-left: 16px;
+                width: 100%;
+                font-size: 12px;
+            }
+
+            button {
+                img {
+                    height: 18px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 375px){
+        h1 {
+            font-size: calc(var(--highlight) *2.2);
+            max-width: 500px;
+        }
+    }
+
+    @media (max-width: 320px){
+        h1 {
+            font-size: calc(var(--highlight) *2.25);
+            max-width: 500px;
+        }
+    }
 `;
