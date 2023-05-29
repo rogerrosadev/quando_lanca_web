@@ -7,8 +7,8 @@ export function TabBar(){
     return(
         <StyledNav>
             <a href=""><BsSearch className="icon" /></a>
-            <a href=""><BiHomeAlt2 className="icon" /></a>
-            <a href=""><BsBookmark className="icon" /></a>
+            <a href="/"><BiHomeAlt2 className="icon" /></a>
+            <a href="/favorites"><BsBookmark className="icon" /></a>
         </StyledNav>
     );
 }

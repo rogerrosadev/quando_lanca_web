@@ -6,6 +6,8 @@ import searchIcon from "../../assets/icons/search_icon.svg";
 import return_arrow from "../../assets/icons/return_arrow.svg";
 import marker from "../../assets/icons/marker.svg";
 
+import { Link } from "react-router-dom";
+
 import { HeaderProps } from "./interface";
 
 export function Header({variant}: HeaderProps){
@@ -17,7 +19,7 @@ export function Header({variant}: HeaderProps){
                 {/* logo e icones mobile */}
                 <div className="top">
                     <a className="return_arrow" href=""><img src={return_arrow} alt="" /></a>
-                    <img src={logo} alt="logo" className="logo" />
+                    <Link to={'/'}><img src={logo} alt="logo" className="logo" /></Link>
                     <a className="marker" href=""><img src={marker} alt="" /></a>
                 </div>
 
