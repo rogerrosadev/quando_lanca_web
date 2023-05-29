@@ -90,4 +90,36 @@ export const StyledSection = styled.section`
         }
     }
 
+    .game_images_slider {
+        margin-top: 80px;
+        margin-bottom: 180px;
+
+        .main_image_container {
+            margin: 0 auto;
+            width: 880px;
+            height: 494px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .controllers {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .bottom_images_container {
+                display: flex;
+                gap: 20px;
+                img {
+                    width: 129px;
+                    height: 72px;
+                    cursor: pointer;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 `;

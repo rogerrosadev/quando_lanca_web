@@ -6,6 +6,10 @@ import { StyledSection } from "./styles";
 
 import { game_mock } from "./game_mock";
 import card_image from "../../assets/card_image.png";
+import main_image from "../../assets/overview_slider_images/main_image.png";
+import img1 from "../../assets/overview_slider_images/sm_img1.png";
+import img2 from "../../assets/overview_slider_images/sm_img2.png";
+import img3 from "../../assets/overview_slider_images/sm_img3.png";
 
 export function About(){
     return(
@@ -79,14 +83,14 @@ export function About(){
 
             <div className="game_images_slider">
                 <div className="main_image_container">
-                    <img src="" alt="" />
+                    <img src={main_image} alt="" />
                 </div>
                 <div className="controllers">
                     <div className="">seta</div>
                     <div className="bottom_images_container">
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src={img1} alt="" />
+                        <img src={img2} alt="" />
+                        <img src={img3} alt="" />
                     </div>
                     <div className="">seta</div>
                 </div>
